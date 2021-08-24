@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html class="no-js" lang="{{ locale }}" dir="ltr">
+
+{% include "partials/head.njk" %}
+
+<body vocab="http://schema.org/" typeof="WebPage">
+
+	{% include "partials/skipnav.njk" %}
+
+	{% include "partials/header.njk"  %}
+
+	<main property="mainContentOfPage" resource="#wb-main" typeof="WebPageElement">
+
+
+		<div class="home">
+			<div class="container p-0 p-sm-3">
+				<div class="well header-rwd brdr-0 brdr-rds-0 text-white gctheme opct-90">
+				<p aria-hidden="true">{{ settings[locale].metaTitle | safe }}</p>
+					<h1 property="name" id="wb-cont">
+						{{ title | safe }}
+					</h1>
+				</div>
+			</div>
+		</div>
+
+		<div class="container">
+
+			<p>{{ description | safe }}</p>
+
+			{% include "partials/alerts.njk" %}
+
+			{{ content | safe }}
+
+			{% include "partials/pagedetails.njk" %}
+		</div>
+
+
+	</main>
+
+	{% include "partials/contribute.njk" %}
+	
+	{% include "partials/footer.njk" %}
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.js"></script>
+	<script src="{{ rootPath }}wet-boew/js/wet-boew.min.js"></script>
+	<script src="{{ rootPath }}gcweb/js/theme.min.js"></script>
+</body>
+</html>

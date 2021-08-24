@@ -1,0 +1,680 @@
+{
+  "issues": [
+    {
+      "Issue": "&lt;blink&gt; elements are deprecated and must not be used",
+      "SC ": "2.2.2 Pause, Stop, Hide"
+    },
+    {
+      "Issue": "&lt;dl&gt; elements must only directly contain properly-ordered &lt;dt&gt; and &lt;dd&gt; groups, &lt;script&gt;, or &lt;template&gt; elements",
+      "SC ": "1.3.1 Info and Relationships"
+    },
+    {
+      "Issue": "&lt;dt&gt; and &lt;dd&gt; elements must be contained by a &lt;dl&gt;",
+      "SC ": "1.3.1 Info and Relationships"
+    },
+    {
+      "Issue": "&lt;html&gt; element must have a lang attribute",
+      "SC ": "3.1.1 Language of Page"
+    },
+    {
+      "Issue": "&lt;html&gt; element must have a valid value for the lang attribute",
+      "SC ": "3.1.1 Language of Page"
+    },
+    {
+      "Issue": "&lt;html&gt; elements with lang and xml:lang must have the same base language",
+      "SC ": "3.1.1 Language of Page"
+    },
+    {
+      "Issue": "&lt;li&gt; elements must be contained in a &lt;ul&gt; or &lt;ol&gt;",
+      "SC ": "1.3.1 Info and Relationships"
+    },
+    {
+      "Issue": "&lt;marquee&gt; elements are deprecated and must not be used",
+      "SC ": "2.2.2 Pause, Stop, Hide"
+    },
+    {
+      "Issue": "&lt;object&gt; elements must have alternate text",
+      "SC ": "1.1.1 Non-text Content"
+    },
+    {
+      "Issue": "&lt;ul&gt; and &lt;ol&gt; must only directly contain &lt;li&gt;, &lt;script&gt; or &lt;template&gt; elements",
+      "SC ": "1.3.1 Info and Relationships"
+    },
+    {
+      "Issue": "accesskey attribute value must be unique",
+      "SC ": "Not specified, or not applicable"
+    },
+    {
+      "Issue": "Active &lt;area&gt; elements must have alternate text",
+      "SC ": "1.1.1 Non-text Content; 2.4.4 Link Purpose (In Context); 4.1.2 Name, Role, Value"
+    },
+    {
+      "Issue": "All &lt;th&gt; elements and elements with role=\"columnheader\" or role=\"rowheader\" must have data cells they describe",
+      "SC ": "1.3.1 Info and Relationships"
+    },
+    {
+      "Issue": "All cells in a &lt;table&gt; element that use the headers attribute must only refer to other cells of that same &lt;table&gt;",
+      "SC ": "1.3.1 Info and Relationships"
+    },
+    {
+      "Issue": "All non-empty &lt;td&gt; elements in tables larger than 3 by 3 must have an associated table header",
+      "SC ": "1.3.1 Info and Relationships"
+    },
+    {
+      "Issue": "All page content must be contained by landmarks",
+      "SC ": "Not specified, or not applicable"
+    },
+    {
+      "Issue": "ARIA attributes must conform to valid names",
+      "SC ": "4.1.2 Name, Role, Value"
+    },
+    {
+      "Issue": "ARIA attributes must conform to valid values",
+      "SC ": "4.1.2 Name, Role, Value"
+    },
+    {
+      "Issue": "ARIA input fields have an accessible name",
+      "SC ": "4.1.2 Name, Role, Value"
+    },
+    {
+      "Issue": "ARIA role must be appropriate for the element",
+      "SC ": "Best Practice"
+    },
+    {
+      "Issue": "ARIA roles used must conform to valid values",
+      "SC ": "4.1.2 Name, Role, Value"
+    },
+    {
+      "Issue": "ARIA toggle fields have an accessible name",
+      "SC ": "4.1.2 Name, Role, Value"
+    },
+    {
+      "Issue": "aria-hidden elements do not contain focusable elements",
+      "SC ": "4.1.2 Name, Role, Value"
+    },
+    {
+      "Issue": "aria-hidden=\"true\" must not be present on the document &lt;body&gt;",
+      "SC ": "4.1.2 Name, Role, Value"
+    },
+    {
+      "Issue": "Audio must have controls that provide users with the ability to stop automatically played audio after three seconds",
+      "SC ": "1.4.2 Audio Control"
+    },
+    {
+      "Issue": "Autocomplete attribute must be used correctly",
+      "SC ": "1.3.5 Identify Input Purpose"
+    },
+    {
+      "Issue": "Banner landmark must not be contained in another landmark",
+      "SC ": "Not specified, or not applicable"
+    },
+    {
+      "Issue": "Bold, italic text and font-size are not used to style &lt;p&gt; elements as a heading",
+      "SC ": "1.3.1 Info and Relationships"
+    },
+    {
+      "Issue": "Buttons must have discernible text",
+      "SC ": "4.1.2 Name, Role, Value"
+    },
+    {
+      "Issue": "Certain ARIA roles must be contained by particular parent elements",
+      "SC ": "1.3.1 Info and Relationships"
+    },
+    {
+      "Issue": "Certain ARIA roles must contain particular children",
+      "SC ": "1.3.1 Info and Relationships"
+    },
+    {
+      "Issue": "Complementary landmarks and/or asides are top level",
+      "SC ": "Not specified, or not applicable"
+    },
+    {
+      "Issue": "Contentinfo landmark must not be contained in another landmark",
+      "SC ": "Not specified, or not applicable"
+    },
+    {
+      "Issue": "CSS Media queries are not used to lock display orientation",
+      "SC ": "1.3.4 Orientation"
+    },
+    {
+      "Issue": "Data or header cells should not be used to give caption to a data table",
+      "SC ": "1.3.1 Info and Relationships"
+    },
+    {
+      "Issue": "Documents must contain a title element to aid in navigation",
+      "SC ": "2.4.2 Page Titled"
+    },
+    {
+      "Issue": "Elements containing <code>role=\"img\"</code> have an alternative text",
+      "SC ": "1.1.1 Non-text Content"
+    },
+    {
+      "Issue": "Elements in the focus order need a role appropriate for interactive content",
+      "SC ": "Not specified, or not applicable"
+    },
+    {
+      "Issue": "Elements must only use allowed ARIA attributes",
+      "SC ": "4.1.2 Name, Role, Value"
+    },
+    {
+      "Issue": "Elements should not have tabindex greater than zero",
+      "SC ": "Not specified, or not applicable"
+    },
+    {
+      "Issue": "Ensure that links with the same accessible name serve a similar purpose",
+      "SC ": "2.4.9 Link Purpose (Link Only)"
+    },
+    {
+      "Issue": "Ensure that scrollable region has keyboard access",
+      "SC ": "2.4.7 Focus Visible"
+    },
+    {
+      "Issue": "Ensures the document has at most one main landmark",
+      "SC ": "Not specified, or not applicable"
+    },
+    {
+      "Issue": "Form &lt;input&gt; elements must have labels",
+      "SC ": "1.3.1 Info and Relationships; 4.1.2 Name, Role, Value"
+    },
+    {
+      "Issue": "Form &lt;input&gt; elements should have a visible label",
+      "SC ": "Not specified, or not applicable"
+    },
+    {
+      "Issue": "Form fields do not have duplicate labels",
+      "SC ": "3.3.2 Labels or Instructions"
+    },
+    {
+      "Issue": "Frames must be tested with axe-core",
+      "SC ": "Not specified, or not applicable"
+    },
+    {
+      "Issue": "Frames must have a unique title attribute",
+      "SC ": "Not specified, or not applicable"
+    },
+    {
+      "Issue": "Frames must have title attribute",
+      "SC ": "2.4.1 Bypass Blocks; 4.1.2 Name, Role, Value"
+    },
+    {
+      "Issue": "Heading levels should only increase by one",
+      "SC ": "Not specified, or not applicable"
+    },
+    {
+      "Issue": "Headings must not be empty",
+      "SC ": "Not specified, or not applicable"
+    },
+    {
+      "Issue": "Hidden content on the page cannot be analyzed",
+      "SC ": "Not specified, or not applicable"
+    },
+    {
+      "Issue": "ID attribute value must be unique",
+      "SC ": "4.1.1 Parsing"
+    },
+    {
+      "Issue": "ID attribute values must be unique",
+      "SC ": "4.1.1 Parsing"
+    },
+    {
+      "Issue": "IDs used in ARIA and labels must be unique",
+      "SC ": "4.1.1 Parsing"
+    },
+    {
+      "Issue": "Image buttons must have alternate text",
+      "SC ": "1.1.1 Non-text Content"
+    },
+    {
+      "Issue": "Images must have alternate text",
+      "SC ": "1.1.1 Non-text Content"
+    },
+    {
+      "Issue": "Inline text spacing must be adjustable with custom stylesheets",
+      "SC ": "1.4.12 Text Spacing"
+    },
+    {
+      "Issue": "Input buttons must have discernible text",
+      "SC ": "4.1.2 Name, Role, Value"
+    },
+    {
+      "Issue": "Label and name from content mismatch",
+      "SC ": "2.5.3 Label in Name"
+    },
+    {
+      "Issue": "Landmarks must have a unique role or role/label/title (i.e. accessible name) combination",
+      "SC ": "Not specified, or not applicable"
+    },
+    {
+      "Issue": "lang attribute must have a valid value",
+      "SC ": "3.1.2 Language of Parts"
+    },
+    {
+      "Issue": "Links must be distinguished from surrounding text in a way that does not rely on color",
+      "SC ": "1.4.1 Use of Color"
+    },
+    {
+      "Issue": "Links must have discernible text",
+      "SC ": "2.4.4 Link Purpose (In Context); 4.1.2 Name, Role, Value"
+    },
+    {
+      "Issue": "Main landmark must not be contained in another landmark",
+      "SC ": "Not specified, or not applicable"
+    },
+    {
+      "Issue": "Page must contain a level-one heading",
+      "SC ": "Not specified, or not applicable"
+    },
+    {
+      "Issue": "Page must have means to bypass repeated blocks",
+      "SC ": "2.4.1 Bypass Blocks"
+    },
+    {
+      "Issue": "Page must have one main landmark",
+      "SC ": "Not specified, or not applicable"
+    },
+    {
+      "Issue": "Page must not have more than one banner landmark",
+      "SC ": "Not specified, or not applicable"
+    },
+    {
+      "Issue": "Page must not have more than one contentinfo landmark",
+      "SC ": "Not specified, or not applicable"
+    },
+    {
+      "Issue": "Required ARIA attributes must be provided",
+      "SC ": "4.1.2 Name, Role, Value"
+    },
+    {
+      "Issue": "Scope attribute should be used correctly on tables",
+      "SC ": "Not specified, or not applicable"
+    },
+    {
+      "Issue": "Server-side image maps must not be used",
+      "SC ": "2.1.1 Keyboard"
+    },
+    {
+      "Issue": "SVG images and graphics require accessible text",
+      "SC ": "1.1.1 Non-text Content"
+    },
+    {
+      "Issue": "Text elements must have sufficient color contrast against the background",
+      "SC ": "1.4.3 Contrast (Minimum)"
+    },
+    {
+      "Issue": "Text of buttons and links should not be repeated in the image alternative",
+      "SC ": "Not specified, or not applicable"
+    },
+    {
+      "Issue": "The &lt;caption&gt; element should not contain the same text as the summary attribute",
+      "SC ": "Not specified, or not applicable"
+    },
+    {
+      "Issue": "The skip-link target should exist and be focusable",
+      "SC ": "Not specified, or not applicable"
+    },
+    {
+      "Issue": "Timed refresh must not exist",
+      "SC ": "2.2.1 Timing Adjustable; 2.2.4 Interruptions; 3.2.5 Change on Request"
+    },
+    {
+      "Issue": "Use aria-roledescription on elements with a semantic role",
+      "SC ": "4.1.2 Name, Role, Value"
+    },
+    {
+      "Issue": "Users should be able to zoom and scale the text up to 500%",
+      "SC ": "Not specified, or not applicable"
+    },
+    {
+      "Issue": "Zooming and scaling must not be disabled",
+      "SC ": "1.4.4 Resize text"
+    },
+    {
+      "Issue": "Changing the meaning of content by positioning information with CSS",
+      "SC ": "1.3.2 Meaningful Sequence"
+    },
+    {
+      "Issue": "Using changes in text presentation to convey information without using the appropriate markup or text",
+      "SC ": "1.3.1 Info and Relationships"
+    },
+    {
+      "Issue": "Using CSS to include images that convey important information",
+      "SC ": "1.1.1 Non-text Content"
+    },
+    {
+      "Issue": "Using text-decoration:blink without a mechanism to stop it in less than five seconds",
+      "SC ": "2.2.2 Pause, Stop, Hide"
+    },
+    {
+      "Issue": "An object or applet, such as Java or Flash, that has blinking content without a mechanism to pause the content that blinks for more than five seconds",
+      "SC ": "2.2.2 Pause, Stop, Hide"
+    },
+    {
+      "Issue": "Captions omitting some dialogue or important sound effects",
+      "SC ": "1.2.2 Captions (Prerecorded)"
+    },
+    {
+      "Issue": "Combining multiple content formats in a way that traps users inside one format type",
+      "SC ": "2.1.2 No Keyboard Trap"
+    },
+    {
+      "Issue": "Having a text alternative that does not include information that is conveyed by color differences in the image",
+      "SC ": "1.1.1 Non-text Content; 1.4.1 Use of Color"
+    },
+    {
+      "Issue": "Identifying content only by its shape or location",
+      "SC ": "1.3.3 Sensory Characteristics"
+    },
+    {
+      "Issue": "Implementing custom controls that do not use an accessibility API for the technology, or do so incompletely",
+      "SC ": "4.1.2 Name, Role, Value"
+    },
+    {
+      "Issue": "Including scrolling content where movement is not essential to the activity without also including a mechanism to pause and restart the content",
+      "SC ": "2.2.2 Pause, Stop, Hide"
+    },
+    {
+      "Issue": "Not updating text alternatives when changes to non-text content occur",
+      "SC ": "1.1.1 Non-text Content; 4.1.2 Name, Role, Value"
+    },
+    {
+      "Issue": "Playing a sound longer than 3 seconds where there is no mechanism to turn it off",
+      "SC ": "1.4.2 Audio Control"
+    },
+    {
+      "Issue": "Specifying foreground colors without specifying background colors or vice versa",
+      "SC ": "1.4.3 Contrast (Minimum)"
+    },
+    {
+      "Issue": "The title of a Web page not identifying the contents",
+      "SC ": "2.4.2 Page Titled"
+    },
+    {
+      "Issue": "Using a graphical symbol alone to convey information",
+      "SC ": "1.3.3 Sensory Characteristics"
+    },
+    {
+      "Issue": "Using text alternatives that are not alternatives (e.g., filenames or placeholder text)",
+      "SC ": "1.1.1 Non-text Content; 1.2.1 Audio-onle and Video-only (Prerecorded)"
+    },
+    {
+      "Issue": "Using two different labels for the same function on different Web pages within a set of Web pages",
+      "SC ": "3.2.4 Consistent Identification"
+    },
+    {
+      "Issue": "Using white space characters to control spacing within a word",
+      "SC ": "1.3.2 Meaningful Sequence"
+    },
+    {
+      "Issue": "Using white space characters to create multiple columns in plain text content",
+      "SC ": "1.3.1 Info and Relationships; 1.3.2 Meaningful Sequence"
+    },
+    {
+      "Issue": "Using white space characters to format tables in plain text content",
+      "SC ": "1.3.1 Info and Relationships; 1.3.2 Meaningful Sequence"
+    },
+    {
+      "Issue": "Automatically submitting a form and given a value",
+      "SC ": "3.2.2 On Input"
+    },
+    {
+      "Issue": "Launching a new window without prior warning when the selection of a radio button, check box or select list is changed",
+      "SC ": "3.2.2 On Input"
+    },
+    {
+      "Issue": "Not marking up decorative images in HTML in a way that allows assistive technology to ignore them",
+      "SC ": "1.1.1 Non-text Content"
+    },
+    {
+      "Issue": "Providing a text alternative that is not null (e.g., alt=spacer\" or alt=\"image\") for images that should be ignored by assistive technology\"",
+      "SC ": "1.1.1 Non-text Content"
+    },
+    {
+      "Issue": "Using meta redirect with a time limit",
+      "SC ": "2.2.1 Timing Adjustable; 2.2.4 Interruptions; 3.2.5 Change on Request"
+    },
+    {
+      "Issue": "Using meta refresh to reload the page",
+      "SC ": "2.2.1 Timing Adjustable; 2.2.4 Interruptions; 3.2.5 Change on Request"
+    },
+    {
+      "Issue": "Improperly emulating links",
+      "SC ": "1.3.1 Info and Relationships; 2.1.1 Keyboard; 2.1.3 Keyboard (No exceptions); 4.1.2 Name, Role, Value"
+    },
+    {
+      "Issue": "Using structural markup in a way that does not represent relationships in the content",
+      "SC ": "1.3.1 Info and Relationships"
+    },
+    {
+      "Issue": "Using tabindex to create a tab order that does not preserve meaning and operability",
+      "SC ": "2.4.3 Focus Order"
+    },
+    {
+      "Issue": "Using th elements, layout tables",
+      "SC ": "1.3.1 Info and Relationships"
+    },
+    {
+      "Issue": "Using the blink element",
+      "SC ": "2.2.2 Pause, Stop, Hide"
+    },
+    {
+      "Issue": "Using the pre element to markup tabular information",
+      "SC ": "1.3.2 Info and Relationships"
+    },
+    {
+      "Issue": "Using an HTML layout table that does not make sense when linearized",
+      "SC ": "1.3.2 Meaningful Sequence"
+    },
+    {
+      "Issue": "A script that causes a blink effect without a mechanism to stop the blinking at 5 seconds or less",
+      "SC ": "2.2.2 Pause, Stop, Hide"
+    },
+    {
+      "Issue": "Opening a new window as soon as a new page is loaded",
+      "SC ": "3.2.1 On Focus; 3.2.5 Change on Request"
+    },
+    {
+      "Issue": "Using only pointing-device-specific event handlers (including gesture) for a function",
+      "SC ": "2.1.1 Keyboard"
+    },
+    {
+      "Issue": "Using script to remove focus when focus is received",
+      "SC ": "2.1.1 Keyboard; 2.4.7 Focus Visible; 2.4.1 Focus Visibile (Enhanced); 3.2.1 On Focus"
+    },
+    {
+      "Issue": "Using server-side techniques to automatically redirect pages after a time-out",
+      "SC ": "2.2.1 Timing Adjustable"
+    },
+    {
+      "Issue": "Using script to make div or span a user interface control in HTML without providing a role for the control",
+      "SC ": "4.1.2 Name, Role, Value"
+    },
+    {
+      "Issue": "Providing link context only in content that is not related to the link",
+      "SC ": "2.4.4 Link Purpose (In Context)"
+    },
+    {
+      "Issue": "Omitting the alt attribute or text alternative on img elements, area elements, and input elements of type \"image\"",
+      "SC ": "1.1.1 Non-text Content"
+    },
+    {
+      "Issue": "Presenting navigation links in a different relative order on different pages",
+      "SC ": "3.2.3 Consistent Navigation"
+    },
+    {
+      "Issue": "Providing long descriptions for non-text content that does not serve the same purpose or does not present the same information",
+      "SC ": "1.1.1 Non-text Content; 1.2.1 Audio-onle and Video-only (Prerecorded)"
+    },
+    {
+      "Issue": "A user interface control not having a programmatically determined name",
+      "SC ": "4.1.2 Name, Role, Value"
+    },
+    {
+      "Issue": "Resizing visually rendered text up to 200 percent causes the text, image or controls to be clipped, truncated or obscured",
+      "SC ": "1.4.4 Resize text"
+    },
+    {
+      "Issue": "Incorrect use of start and end tags or attribute markup",
+      "SC ": "4.1.1 Parsing"
+    },
+    {
+      "Issue": "Using text look-alikes to represent text without providing a text alternative",
+      "SC ": "1.1.1 Non-text Content"
+    },
+    {
+      "Issue": "Using ASCII art without providing a text alternative",
+      "SC ": "1.1.1 Non-text Content"
+    },
+    {
+      "Issue": "Creating links that are not visually evident without color vision",
+      "SC ": "1.4.1 Use of Color"
+    },
+    {
+      "Issue": "Not labeling a synchronized media alternative to text as an alternative",
+      "SC ": "1.2.2 Captions (Prerecorded); 1.2.8 Media Alternative (Prerecorded)"
+    },
+    {
+      "Issue": "Providing synchronized media without captions when the synchronized media presents more information than is presented on the page",
+      "SC ": "1.2.2 Captions (Prerecorded)"
+    },
+    {
+      "Issue": "Duplicate values of type ID",
+      "SC ": "4.1.1 Parsing"
+    },
+    {
+      "Issue": "Styling element outlines and borders in a way that removes or renders non-visible the visual focus indicator",
+      "SC ": "1.4.11 Non-text Contrast; 2.4.7 Focus Visible; 2.4.11 Focus Visible (Enhanced)"
+    },
+    {
+      "Issue": "The focus state of a user interface component not being programmatically determinable or no notification of change of focus state available",
+      "SC ": "4.1.2 Name, Role, Value"
+    },
+    {
+      "Issue": "Text-based form controls do not resize when visually rendered text is resized up to 200%",
+      "SC ": "1.4.4 Resize text"
+    },
+    {
+      "Issue": "Identifying required or error fields using color differences only",
+      "SC ": "1.4.1 Use of Color"
+    },
+    {
+      "Issue": "Visually formatting a set of phone number fields but not including a text label",
+      "SC ": "3.3.2 Labels or Instructions"
+    },
+    {
+      "Issue": "Using background images that do not provide sufficient contrast with foreground text (or images of text)",
+      "SC ": "1.4.3 Contrast (Minimum); 1.4.6 Contrast (Enhanced)"
+    },
+    {
+      "Issue": "Using a non-specific link such as \"click here\" or \"more\" without a mechanism to change the link text to specific text.",
+      "SC ": "2.4.9 Link Purpose (Link Only)"
+    },
+    {
+      "Issue": "Using dialogs or menus that are not adjacent to their trigger control in the sequential navigation order",
+      "SC ": "2.4.3 Focus Order"
+    },
+    {
+      "Issue": "Not providing names for each part of a multi-part form field, such as a US telephone number",
+      "SC ": "4.1.2 Name, Role, Value"
+    },
+    {
+      "Issue": "Inserting non-decorative content by using :before and :after pseudo-elements and the 'content' property in CSS",
+      "SC ": "1.3.1 Info and Relationships"
+    },
+    {
+      "Issue": "Not providing an accessible name for an image which is the only content in a link",
+      "SC ": "2.4.4 Link Purpose (In Context); 2.4.9 Link Purpose (Link Only); 4.1.2 Name, Role, Value"
+    },
+    {
+      "Issue": "Incorrectly associating table headers and content via the headers and id attributes",
+      "SC ": "1.3.1 Info and Relationships"
+    },
+    {
+      "Issue": "Not correctly marking up table headers",
+      "SC ": "1.3.1 Info and Relationships"
+    },
+    {
+      "Issue": "The use of role presentation on content which conveys semantic information",
+      "SC ": "1.3.1 Info and Relationships"
+    },
+    {
+      "Issue": "Absence of a way to pause or stop an HTML5 media element that autoplays",
+      "SC ": "1.4.2 Audio Control"
+    },
+    {
+      "Issue": "Text sized in viewport units",
+      "SC ": "1.4.4 Resize text"
+    },
+    {
+      "Issue": "Content shown on hover not being hoverable",
+      "SC ": "1.4.13 Content on Hover or Focus"
+    },
+    {
+      "Issue": "The accessible name not containing the visible label text",
+      "SC ": "2.5.3 Label in Name"
+    },
+    {
+      "Issue": "Locking the orientation to landscape or portrait view",
+      "SC ": "1.3.4 Orientation"
+    },
+    {
+      "Issue": "Using fixed sized containers and fixed position content (CSS)",
+      "SC ": "1.4.10 Reflow"
+    },
+    {
+      "Issue": "Using preformatted text or excluding preformatting text as an exception to no two dimensional scrolling.",
+      "SC ": "1.4.10 Reflow"
+    },
+    {
+      "Issue": "Not allowing for spacing override.",
+      "SC ": "1.4.12 Text Spacing"
+    },
+    {
+      "Issue": "Failure to make content dismissable without moving pointer hover or keyboard focus",
+      "SC ": "1.4.13 Content on Hover or Focus"
+    },
+    {
+      "Issue": "Failure to meet by content on hover or focus not remaining visible until dismissed or invalid",
+      "SC ": "1.4.13 Content on Hover or Focus"
+    },
+    {
+      "Issue": "A webpage or web app that includes single-key shortcuts not including a control that allows users to turn the shortcuts off or a control that allows users to change the shortcuts to key combinations that include keys that are not upper or lower-case letters, punctuation, number, or symbol characters.",
+      "SC ": "2.1.4 Character Key Shortcuts"
+    },
+    {
+      "Issue": "Functionality can be operated by pointer input but not with single-point activation alone",
+      "SC ": "2.5.1 Pointer Gestures"
+    },
+    {
+      "Issue": "Activating a button on initial touch location rather than the final touch location.",
+      "SC ": "2.5.2 Pointer Cancellation"
+    },
+    {
+      "Issue": "Accessible name contains the visible label text, but the words of the visible label are not in the same order as they are in the visible label text",
+      "SC ": "2.5.3 Label in Name"
+    },
+    {
+      "Issue": "Accessible name contains the visible label text, but one or more other words are interspersed in the label",
+      "SC ": "2.5.3 Label in Name"
+    },
+    {
+      "Issue": "Functionality that can only be activated via device motion events (e.g., shaking or tilting)",
+      "SC ": "2.5.4 Motion Actuation"
+    },
+    {
+      "Issue": "An inability to disable motion actuation",
+      "SC ": "2.5.4 Motion Actuation"
+    },
+    {
+      "Issue": "Disrupting or disabling system level features which allow the user to disable motion actuation",
+      "SC ": "2.5.4 Motion Actuation"
+    },
+    {
+      "Issue": "Using role=\"alert\" or aria-live=\"assertive\" on content which is not important and time-sensitive",
+      "SC ": "4.1.3 Status Messages"
+    },
+    {
+      "Issue": "Using a visibility change event to hide or display a document without switching the document's live regions between active and inactive",
+      "SC ": "4.1.3 Status Messages"
+    }
+  ]
+}

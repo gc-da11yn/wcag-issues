@@ -1,0 +1,45 @@
+{
+  "name": "wcag-issues",
+  "version": "1.0.0",
+  "description": "A web application, used tp search a daabase of common found WCAG 2.1 issues.",
+  "main": ".eleventy.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "eleventy": "npx eleventy",
+    "watch:eleventy": "eleventy --serve",
+    "sass-start": "sass src/_scss/base.scss _site/css/da11yn.css",
+    "sass-build": "sass --style=compressed src/_scss/base.scss _site/css/da11yn.css",
+    "watch:sass": "npm run sass-start -- --watch",
+    "start": "npm-run-all sass-start --parallel watch:*",
+    "build": "npm-run-all sass-build --parallel eleventy",
+    "convert": "node convert.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gc-da11yn/wcag-issues.git"
+  },
+  "keywords": [
+    "accessibility",
+    "Government of Canada",
+    "eleventy",
+    "WCAG",
+    "issues"
+  ],
+  "author": "Government of Canada",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gc-da11yn/wcag-issues/issues"
+  },
+  "homepage": "https://github.com/gc-da11yn/wcag-issues#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.12.1",
+    "convert-excel-to-json": "^1.7.0",
+    "moment": "^2.29.1",
+    "npm-run-all": "^4.1.5",
+    "sass": "^1.32.12"
+  },
+  "dependencies": {
+    "gcweb": "github:wet-boew/themes-cdn#v9.4.1-gcweb",
+    "wet-boew": "github:wet-boew/wet-boew-cdn#v4.0.43.1"
+  }
+}
