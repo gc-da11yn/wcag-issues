@@ -6,7 +6,6 @@ module.exports = function(eleventyConfig) {
 	eleventyConfig.addPassthroughCopy({ "./src/_docs" : "docs" });
 	eleventyConfig.addPassthroughCopy({ "./src/_images" : "img" });
 	eleventyConfig.addPassthroughCopy({ "./src/CNAME" : "CNAME" });
-	eleventyConfig.addPassthroughCopy({ "./src/_data/issues/issues.json" : "issues/issues.json" });
 	
 
 	// date filter (localized)

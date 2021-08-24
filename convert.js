@@ -5,7 +5,7 @@ const fs = require('fs');
  
 // Converts the Excel to JSON
 const result = excelToJson({
-    sourceFile: './src/_data/issues/issues.xlsx',
+    sourceFile: './src/_data/issues.xlsx',
 	// Removed the first row
     header:{
         rows: 1
@@ -18,6 +18,6 @@ const result = excelToJson({
 });
 
 // Writes JSON file
-fs.writeFileSync('./src/_data/issues/issues.json', JSON.stringify(result, null, 2));
+fs.writeFileSync('./src/_data/issues.json', JSON.stringify(result, null, 2));
 
 // console.log(result);

@@ -12,7 +12,7 @@
     "watch:sass": "npm run sass-start -- --watch",
     "start": "npm-run-all sass-start --parallel watch:*",
     "build": "npm-run-all sass-build --parallel eleventy",
-    "convert": "node convert.js"
+	"convert": "node convert.js"
   },
   "repository": {
     "type": "git",
