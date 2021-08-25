@@ -1,8 +1,17 @@
 ## GC WCAG 2.1 Issue database
 
+Using nodeJS and 11ty.dev to maintain a list of WCAG issues found in our audits.
+
+## Building
+
+* `npm run build` to build and not serve.
+* `npm run start` to build and serve and watch for changes.
+* `npm run convert` to convert the Excel file to JSON.
+
+## Contributing
 See [CONTRIBUTING.md](CONTRIBUTING.md) for more information.
 
-### License
+## License
 
 Unless otherwise noted, the source code of this project is covered under Crown Copyright, Government of Canada, and is distributed under the [MIT License](LICENSE).
 
