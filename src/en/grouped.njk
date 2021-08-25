@@ -12,7 +12,7 @@ description: A database of WCAG issues found in our audits. Grouped by Success C
 {% for SC, issues in issues.issues | groupby("SC") %}
     <section>
     	<h2>{{ SC }}</h2>
-		<ul>
+		<ul class="lst-spcd">
 		{% for issue in issues %}<li>
 	        {{ issue.Issue }}</li>
 	    {% endfor %}
