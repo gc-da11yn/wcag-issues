@@ -5,9 +5,10 @@ description: A database of WCAG issues found in our audits.
 ---
 <div>
 	<p>Issues:</p>
-	<ul class="wb-filter">
+	<ul class="wb-filter lst-spcd">
 	{% for issue in issues.issues %}
-		<li>{{ issue.Issue }}</li>
+		<li>{{ issue.Issue }}<br />
+		<strong>Related Success Criterion:</strong> <span class="label label-primary">{{ issue.SC }}</span></li>
 	{% endfor %}
 	</ul>
 </div>
