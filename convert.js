@@ -13,7 +13,7 @@ const result = excelToJson({
 	// Custom values for columns
 	columnToKey: {
         A: 'Issue',
-        B: 'SC '
+        B: 'SC'
     }
 });
 

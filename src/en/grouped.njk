@@ -1,0 +1,19 @@
+---
+title: Common found WCAG 2.0 issues - Grouped by SC
+layout: layouts/base.njk
+description: A database of WCAG issues found in our audits. Grouped by Success Criterion.
+---
+
+
+<div class="wb-filter">
+{% for SC, issues in issues.issues | groupby("SC") %}
+    <section>
+    	<h2>{{ SC }}</h2>
+		<ul>
+		{% for issue in issues %}<li>
+	        {{ issue.Issue }}</li>
+	    {% endfor %}
+		</ul>
+    </section>
+{% endfor %}
+</div>

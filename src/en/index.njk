@@ -3,12 +3,21 @@ title: Common found WCAG 2.0 issues
 layout: layouts/base.njk
 description: A database of WCAG issues found in our audits.
 ---
+
+<p>Sort by:</p>
+<ul>
+<li><a href="./grouped/">Grouped SC</a></li>
+</ul>
 <div>
 	<p>Issues:</p>
 	<ul class="wb-filter lst-spcd">
 	{% for issue in issues.issues %}
 		<li>{{ issue.Issue }}<br />
+		{% if issue.SC == 'Best Practice' %}
+			<span class="label label-success">{{ issue.SC }}</span>
+			{% else %}
 		<strong>Related Success Criterion:</strong> <span class="label label-primary">{{ issue.SC }}</span></li>
+		{% endif %}
 	{% endfor %}
 	</ul>
 </div>
