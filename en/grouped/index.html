@@ -1,0 +1,980 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en" dir="ltr">
+
+
+
+<head>
+	<meta charset="utf-8">
+	<!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+		wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html -->
+	
+	<title>Common found WCAG 2.0 issues - Grouped by SC - Digital Accessibility Toolkit / Sharing space</title>
+	<meta content="width=device-width,initial-scale=1" name="viewport">
+	<meta name="description" content="A database of WCAG issues found in our audits. Grouped by Success Criterion.">
+	<link rel="alternate" hreflang="fr" href="../../fr/grouped" />
+	<link href="../../gcweb/assets/favicon.ico" rel="icon" type="image/x-icon">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+	<link rel="stylesheet" href="../../gcweb/css/theme.min.css"/>
+	<link rel="stylesheet" href="../../css/da11yn.css">
+</head>
+
+
+<body vocab="http://schema.org/" typeof="WebPage">
+
+	
+<nav>
+	<ul id="wb-tphp">
+		<li class="wb-slc">
+			<a class="wb-sl" href="#wb-cont">Skip to main content</a>
+		</li>
+		<li class="wb-slc">
+			<a class="wb-sl" href="#wb-info">Skip to &quot;About government&quot;</a>
+		</li>
+	</ul>
+</nav>
+
+
+	
+
+
+<header>
+	<div id="wb-bnr" class="container">
+		<div class="row">
+		
+		
+			<section id="wb-lng" class="col-xs-3 col-sm-12 pull-right text-right">
+				<h2 class="wb-inv">Language selection</h2>
+				<ul class="list-inline mrgn-bttm-0">
+					<li>
+						<a lang="fr" hreflang="fr" href="../../fr/grouped">
+							<span class="hidden-xs">Français</span>
+							<abbr title="Français" class="visible-xs h3 mrgn-tp-sm mrgn-bttm-0 text-uppercase">fr</abbr>
+						</a>
+					</li>
+				</ul>
+			</section>
+		
+
+			<div class="brand col-xs-9 col-sm-5 col-md-4" property="publisher" typeof="GovernmentOrganization">
+				<a href="https://www.canada.ca/en.html" property="url">
+					<img src="../../gcweb/assets/sig-blk-en.svg" alt="Government of Canada" property="logo" /><span class="wb-inv"> / <span lang="fr">Gouvernement du Canada</span></span>
+				</a>
+				<meta property="name" content="Government of Canada">
+				<meta property="areaServed" typeof="Country" content="Canada" />
+				<link property="logo" href="../../gcweb/assets/wmms-blk.svg" />
+			</div>
+
+			<section id="wb-srch" class="col-lg-offset-4 col-md-offset-4 col-sm-offset-2 col-xs-12 col-sm-5 col-md-4">
+				<h2>Search</h2>
+				<form action="https://canada.ca/en/sr/srb.html" method="post" name="cse-search-box" role="search">
+					<div class="form-group wb-srch-qry">
+						<label for="wb-srch-q" class="wb-inv">Search Canada.ca</label>
+						<input id="wb-srch-q" list="wb-srch-q-ac" class="wb-srch-q form-control" name="q" type="search" value="" size="34" maxlength="170" placeholder="Search Canada.ca" />
+						<datalist id="wb-srch-q-ac"></datalist>
+					</div>
+					<div class="form-group submit">
+						<button type="submit" id="wb-srch-sub" class="btn btn-primary btn-small" name="wb-srch-sub">
+							<span class="glyphicon-search glyphicon"></span>
+							<span class="wb-inv">Search</span>
+						</button>
+					</div>
+				</form>
+			</section>
+
+		</div>
+	</div>
+
+	<nav class="gcweb-menu" typeof="SiteNavigationElement">
+		<div class="container">
+			<h2 class="wb-inv">Menu</h2>
+			<button type="button" aria-haspopup="true" aria-expanded="false">
+				
+					<span class="wb-inv">Main </span>Menu <span class="expicon glyphicon glyphicon-chevron-down"></span>
+				
+			</button>
+			<ul role="menu" aria-orientation="vertical" data-ajax-replace="https://www.canada.ca/content/dam/canada/sitemenu/sitemenu-v2-en.html">
+				<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/jobs.html">Jobs and the workplace</a></li>
+				<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/immigration-citizenship.html">Immigration and citizenship</a></li>
+				<li role="presentation"><a role="menuitem" href="https://travel.gc.ca/">Travel and tourism</a></li>
+				<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/business.html">Business and industry</a></li>
+				<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/benefits.html">Benefits</a></li>
+				<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/health.html">Health</a></li>
+				<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/taxes.html">Taxes</a></li>
+				<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/environment.html">Environment and natural resources</a></li>
+				<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/defence.html">National security and defence</a></li>
+				<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/culture.html">Culture, history and sport</a></li>
+				<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/policing.html">Policing, justice and emergencies</a></li>
+				<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/transport.html">Transport and infrastructure</a></li>
+				<li role="presentation"><a role="menuitem" href="https://international.gc.ca/world-monde/index.aspx?lang=eng">Canada and the world</a></li>
+				<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/finance.html">Money and finances</a></li>
+				<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/science.html">Science and innovation</a></li>
+			</ul>
+		</div>
+	</nav>
+	<nav id="wb-bc" property="breadcrumb">
+		<h2>Breadcrumb Navigation</h2>
+		<div class="container">
+			<ol class="breadcrumb">
+				<li>
+					<a href="https://www.canada.ca/en.html">Canada.ca</a>
+				</li>
+				
+				
+					<li><a href="../../en/">Digital Accessibility Toolkit / Sharing space</a></li>
+				
+				
+				
+			</ol>
+		</div>
+	</nav>
+	
+</header>
+
+
+	<main property="mainContentOfPage" resource="#wb-main" typeof="WebPageElement">
+
+
+		<div class="home">
+			<div class="container p-0 p-sm-3">
+				<div class="well header-rwd brdr-0 brdr-rds-0 text-white gctheme opct-90">
+				<p aria-hidden="true">Digital Accessibility Toolkit / Sharing space</p>
+					<h1 property="name" id="wb-cont">
+						Common found WCAG 2.0 issues - Grouped by SC
+					</h1>
+				</div>
+			</div>
+		</div>
+
+		<div class="container">
+
+			<p>A database of WCAG issues found in our audits. Grouped by Success Criterion.</p>
+
+			
+<section class="alert alert-warning mrgn-tp-lg">
+	<h2>Important information</h2>
+	<ul>
+		<li class="mrgn-tp-lg">Our soon to be awesome site is new and still under construction. Please open an <a href="https://github.com/gc-da11yn/gc-da11yn.github.io/issues">issue on our Github project</a> if you see anything that needs to be fixed or if you have any recommendations.</li>
+	
+	
+	</ul>
+</section>
+
+			
+
+<div class="wb-filter">
+
+    <section>
+    	<h2>1.1.1 Non-text Content</h2>
+		<ul>
+		<li>
+	        &lt;object&gt; elements must have alternate text</li>
+	    <li>
+	        Elements containing &lt;code&gt;role=&quot;img&quot;&lt;/code&gt; have an alternative text</li>
+	    <li>
+	        Image buttons must have alternate text</li>
+	    <li>
+	        Images must have alternate text</li>
+	    <li>
+	        SVG images and graphics require accessible text</li>
+	    <li>
+	        Using CSS to include images that convey important information</li>
+	    <li>
+	        Not marking up decorative images in HTML in a way that allows assistive technology to ignore them</li>
+	    <li>
+	        Providing a text alternative that is not null (e.g., alt=spacer&quot; or alt=&quot;image&quot;) for images that should be ignored by assistive technology&quot;</li>
+	    <li>
+	        Omitting the alt attribute or text alternative on img elements, area elements, and input elements of type &quot;image&quot;</li>
+	    <li>
+	        Using text look-alikes to represent text without providing a text alternative</li>
+	    <li>
+	        Using ASCII art without providing a text alternative</li>
+	    
+		</ul>
+    </section>
+
+    <section>
+    	<h2>1.1.1 Non-text Content; 1.2.1 Audio-onle and Video-only (Prerecorded)</h2>
+		<ul>
+		<li>
+	        Using text alternatives that are not alternatives (e.g., filenames or placeholder text)</li>
+	    <li>
+	        Providing long descriptions for non-text content that does not serve the same purpose or does not present the same information</li>
+	    
+		</ul>
+    </section>
+
+    <section>
+    	<h2>1.1.1 Non-text Content; 1.4.1 Use of Color</h2>
+		<ul>
+		<li>
+	        Having a text alternative that does not include information that is conveyed by color differences in the image</li>
+	    
+		</ul>
+    </section>
+
+    <section>
+    	<h2>1.1.1 Non-text Content; 2.4.4 Link Purpose (In Context); 4.1.2 Name, Role, Value</h2>
+		<ul>
+		<li>
+	        Active &lt;area&gt; elements must have alternate text</li>
+	    
+		</ul>
+    </section>
+
+    <section>
+    	<h2>1.1.1 Non-text Content; 4.1.2 Name, Role, Value</h2>
+		<ul>
+		<li>
+	        Not updating text alternatives when changes to non-text content occur</li>
+	    
+		</ul>
+    </section>
+
+    <section>
+    	<h2>1.2.2 Captions (Prerecorded)</h2>
+		<ul>
+		<li>
+	        Captions omitting some dialogue or important sound effects</li>
+	    <li>
+	        Providing synchronized media without captions when the synchronized media presents more information than is presented on the page</li>
+	    
+		</ul>
+    </section>
+
+    <section>
+    	<h2>1.2.2 Captions (Prerecorded); 1.2.8 Media Alternative (Prerecorded)</h2>
+		<ul>
+		<li>
+	        Not labeling a synchronized media alternative to text as an alternative</li>
+	    
+		</ul>
+    </section>
+
+    <section>
+    	<h2>1.3.1 Info and Relationships</h2>
+		<ul>
+		<li>
+	        &lt;dl&gt; elements must only directly contain properly-ordered &lt;dt&gt; and &lt;dd&gt; groups, &lt;script&gt;, or &lt;template&gt; elements</li>
+	    <li>
+	        &lt;dt&gt; and &lt;dd&gt; elements must be contained by a &lt;dl&gt;</li>
+	    <li>
+	        &lt;li&gt; elements must be contained in a &lt;ul&gt; or &lt;ol&gt;</li>
+	    <li>
+	        &lt;ul&gt; and &lt;ol&gt; must only directly contain &lt;li&gt;, &lt;script&gt; or &lt;template&gt; elements</li>
+	    <li>
+	        All &lt;th&gt; elements and elements with role=&quot;columnheader&quot; or role=&quot;rowheader&quot; must have data cells they describe</li>
+	    <li>
+	        All cells in a &lt;table&gt; element that use the headers attribute must only refer to other cells of that same &lt;table&gt;</li>
+	    <li>
+	        All non-empty &lt;td&gt; elements in tables larger than 3 by 3 must have an associated table header</li>
+	    <li>
+	        Bold, italic text and font-size are not used to style &lt;p&gt; elements as a heading</li>
+	    <li>
+	        Certain ARIA roles must be contained by particular parent elements</li>
+	    <li>
+	        Certain ARIA roles must contain particular children</li>
+	    <li>
+	        Data or header cells should not be used to give caption to a data table</li>
+	    <li>
+	        Using changes in text presentation to convey information without using the appropriate markup or text</li>
+	    <li>
+	        Using structural markup in a way that does not represent relationships in the content</li>
+	    <li>
+	        Using th elements, layout tables</li>
+	    <li>
+	        Inserting non-decorative content by using :before and :after pseudo-elements and the &#39;content&#39; property in CSS</li>
+	    <li>
+	        Incorrectly associating table headers and content via the headers and id attributes</li>
+	    <li>
+	        Not correctly marking up table headers</li>
+	    <li>
+	        The use of role presentation on content which conveys semantic information</li>
+	    
+		</ul>
+    </section>
+
+    <section>
+    	<h2>1.3.1 Info and Relationships; 1.3.2 Meaningful Sequence</h2>
+		<ul>
+		<li>
+	        Using white space characters to create multiple columns in plain text content</li>
+	    <li>
+	        Using white space characters to format tables in plain text content</li>
+	    
+		</ul>
+    </section>
+
+    <section>
+    	<h2>1.3.1 Info and Relationships; 2.1.1 Keyboard; 2.1.3 Keyboard (No exceptions); 4.1.2 Name, Role, Value</h2>
+		<ul>
+		<li>
+	        Improperly emulating links</li>
+	    
+		</ul>
+    </section>
+
+    <section>
+    	<h2>1.3.1 Info and Relationships; 4.1.2 Name, Role, Value</h2>
+		<ul>
+		<li>
+	        Form &lt;input&gt; elements must have labels</li>
+	    
+		</ul>
+    </section>
+
+    <section>
+    	<h2>1.3.2 Info and Relationships</h2>
+		<ul>
+		<li>
+	        Using the pre element to markup tabular information</li>
+	    
+		</ul>
+    </section>
+
+    <section>
+    	<h2>1.3.2 Meaningful Sequence</h2>
+		<ul>
+		<li>
+	        Changing the meaning of content by positioning information with CSS</li>
+	    <li>
+	        Using white space characters to control spacing within a word</li>
+	    <li>
+	        Using an HTML layout table that does not make sense when linearized</li>
+	    
+		</ul>
+    </section>
+
+    <section>
+    	<h2>1.3.3 Sensory Characteristics</h2>
+		<ul>
+		<li>
+	        Identifying content only by its shape or location</li>
+	    <li>
+	        Using a graphical symbol alone to convey information</li>
+	    
+		</ul>
+    </section>
+
+    <section>
+    	<h2>1.3.4 Orientation</h2>
+		<ul>
+		<li>
+	        CSS Media queries are not used to lock display orientation</li>
+	    <li>
+	        Locking the orientation to landscape or portrait view</li>
+	    
+		</ul>
+    </section>
+
+    <section>
+    	<h2>1.3.5 Identify Input Purpose</h2>
+		<ul>
+		<li>
+	        Autocomplete attribute must be used correctly</li>
+	    
+		</ul>
+    </section>
+
+    <section>
+    	<h2>1.4.1 Use of Color</h2>
+		<ul>
+		<li>
+	        Links must be distinguished from surrounding text in a way that does not rely on color</li>
+	    <li>
+	        Creating links that are not visually evident without color vision</li>
+	    <li>
+	        Identifying required or error fields using color differences only</li>
+	    
+		</ul>
+    </section>
+
+    <section>
+    	<h2>1.4.10 Reflow</h2>
+		<ul>
+		<li>
+	        Using fixed sized containers and fixed position content (CSS)</li>
+	    <li>
+	        Using preformatted text or excluding preformatting text as an exception to no two dimensional scrolling.</li>
+	    
+		</ul>
+    </section>
+
+    <section>
+    	<h2>1.4.11 Non-text Contrast; 2.4.7 Focus Visible; 2.4.11 Focus Visible (Enhanced)</h2>
+		<ul>
+		<li>
+	        Styling element outlines and borders in a way that removes or renders non-visible the visual focus indicator</li>
+	    
+		</ul>
+    </section>
+
+    <section>
+    	<h2>1.4.12 Text Spacing</h2>
+		<ul>
+		<li>
+	        Inline text spacing must be adjustable with custom stylesheets</li>
+	    <li>
+	        Not allowing for spacing override.</li>
+	    
+		</ul>
+    </section>
+
+    <section>
+    	<h2>1.4.13 Content on Hover or Focus</h2>
+		<ul>
+		<li>
+	        Content shown on hover not being hoverable</li>
+	    <li>
+	        Failure to make content dismissable without moving pointer hover or keyboard focus</li>
+	    <li>
+	        Failure to meet by content on hover or focus not remaining visible until dismissed or invalid</li>
+	    
+		</ul>
+    </section>
+
+    <section>
+    	<h2>1.4.2 Audio Control</h2>
+		<ul>
+		<li>
+	        Audio must have controls that provide users with the ability to stop automatically played audio after three seconds</li>
+	    <li>
+	        Playing a sound longer than 3 seconds where there is no mechanism to turn it off</li>
+	    <li>
+	        Absence of a way to pause or stop an HTML5 media element that autoplays</li>
+	    
+		</ul>
+    </section>
+
+    <section>
+    	<h2>1.4.3 Contrast (Minimum)</h2>
+		<ul>
+		<li>
+	        Text elements must have sufficient color contrast against the background</li>
+	    <li>
+	        Specifying foreground colors without specifying background colors or vice versa</li>
+	    
+		</ul>
+    </section>
+
+    <section>
+    	<h2>1.4.3 Contrast (Minimum); 1.4.6 Contrast (Enhanced)</h2>
+		<ul>
+		<li>
+	        Using background images that do not provide sufficient contrast with foreground text (or images of text)</li>
+	    
+		</ul>
+    </section>
+
+    <section>
+    	<h2>1.4.4 Resize text</h2>
+		<ul>
+		<li>
+	        Zooming and scaling must not be disabled</li>
+	    <li>
+	        Resizing visually rendered text up to 200 percent causes the text, image or controls to be clipped, truncated or obscured</li>
+	    <li>
+	        Text-based form controls do not resize when visually rendered text is resized up to 200%</li>
+	    <li>
+	        Text sized in viewport units</li>
+	    
+		</ul>
+    </section>
+
+    <section>
+    	<h2>2.1.1 Keyboard</h2>
+		<ul>
+		<li>
+	        Server-side image maps must not be used</li>
+	    <li>
+	        Using only pointing-device-specific event handlers (including gesture) for a function</li>
+	    
+		</ul>
+    </section>
+
+    <section>
+    	<h2>2.1.1 Keyboard; 2.4.7 Focus Visible; 2.4.1 Focus Visibile (Enhanced); 3.2.1 On Focus</h2>
+		<ul>
+		<li>
+	        Using script to remove focus when focus is received</li>
+	    
+		</ul>
+    </section>
+
+    <section>
+    	<h2>2.1.2 No Keyboard Trap</h2>
+		<ul>
+		<li>
+	        Combining multiple content formats in a way that traps users inside one format type</li>
+	    
+		</ul>
+    </section>
+
+    <section>
+    	<h2>2.1.4 Character Key Shortcuts</h2>
+		<ul>
+		<li>
+	        A webpage or web app that includes single-key shortcuts not including a control that allows users to turn the shortcuts off or a control that allows users to change the shortcuts to key combinations that include keys that are not upper or lower-case letters, punctuation, number, or symbol characters.</li>
+	    
+		</ul>
+    </section>
+
+    <section>
+    	<h2>2.2.1 Timing Adjustable</h2>
+		<ul>
+		<li>
+	        Using server-side techniques to automatically redirect pages after a time-out</li>
+	    
+		</ul>
+    </section>
+
+    <section>
+    	<h2>2.2.1 Timing Adjustable; 2.2.4 Interruptions; 3.2.5 Change on Request</h2>
+		<ul>
+		<li>
+	        Timed refresh must not exist</li>
+	    <li>
+	        Using meta redirect with a time limit</li>
+	    <li>
+	        Using meta refresh to reload the page</li>
+	    
+		</ul>
+    </section>
+
+    <section>
+    	<h2>2.2.2 Pause, Stop, Hide</h2>
+		<ul>
+		<li>
+	        &lt;blink&gt; elements are deprecated and must not be used</li>
+	    <li>
+	        &lt;marquee&gt; elements are deprecated and must not be used</li>
+	    <li>
+	        Using text-decoration:blink without a mechanism to stop it in less than five seconds</li>
+	    <li>
+	        An object or applet, such as Java or Flash, that has blinking content without a mechanism to pause the content that blinks for more than five seconds</li>
+	    <li>
+	        Including scrolling content where movement is not essential to the activity without also including a mechanism to pause and restart the content</li>
+	    <li>
+	        Using the blink element</li>
+	    <li>
+	        A script that causes a blink effect without a mechanism to stop the blinking at 5 seconds or less</li>
+	    
+		</ul>
+    </section>
+
+    <section>
+    	<h2>2.4.1 Bypass Blocks</h2>
+		<ul>
+		<li>
+	        Page must have means to bypass repeated blocks</li>
+	    
+		</ul>
+    </section>
+
+    <section>
+    	<h2>2.4.1 Bypass Blocks; 4.1.2 Name, Role, Value</h2>
+		<ul>
+		<li>
+	        Frames must have title attribute</li>
+	    
+		</ul>
+    </section>
+
+    <section>
+    	<h2>2.4.2 Page Titled</h2>
+		<ul>
+		<li>
+	        Documents must contain a title element to aid in navigation</li>
+	    <li>
+	        The title of a Web page not identifying the contents</li>
+	    
+		</ul>
+    </section>
+
+    <section>
+    	<h2>2.4.3 Focus Order</h2>
+		<ul>
+		<li>
+	        Using tabindex to create a tab order that does not preserve meaning and operability</li>
+	    <li>
+	        Using dialogs or menus that are not adjacent to their trigger control in the sequential navigation order</li>
+	    
+		</ul>
+    </section>
+
+    <section>
+    	<h2>2.4.4 Link Purpose (In Context)</h2>
+		<ul>
+		<li>
+	        Providing link context only in content that is not related to the link</li>
+	    
+		</ul>
+    </section>
+
+    <section>
+    	<h2>2.4.4 Link Purpose (In Context); 2.4.9 Link Purpose (Link Only); 4.1.2 Name, Role, Value</h2>
+		<ul>
+		<li>
+	        Not providing an accessible name for an image which is the only content in a link</li>
+	    
+		</ul>
+    </section>
+
+    <section>
+    	<h2>2.4.4 Link Purpose (In Context); 4.1.2 Name, Role, Value</h2>
+		<ul>
+		<li>
+	        Links must have discernible text</li>
+	    
+		</ul>
+    </section>
+
+    <section>
+    	<h2>2.4.7 Focus Visible</h2>
+		<ul>
+		<li>
+	        Ensure that scrollable region has keyboard access</li>
+	    
+		</ul>
+    </section>
+
+    <section>
+    	<h2>2.4.9 Link Purpose (Link Only)</h2>
+		<ul>
+		<li>
+	        Ensure that links with the same accessible name serve a similar purpose</li>
+	    <li>
+	        Using a non-specific link such as &quot;click here&quot; or &quot;more&quot; without a mechanism to change the link text to specific text.</li>
+	    
+		</ul>
+    </section>
+
+    <section>
+    	<h2>2.5.1 Pointer Gestures</h2>
+		<ul>
+		<li>
+	        Functionality can be operated by pointer input but not with single-point activation alone</li>
+	    
+		</ul>
+    </section>
+
+    <section>
+    	<h2>2.5.2 Pointer Cancellation</h2>
+		<ul>
+		<li>
+	        Activating a button on initial touch location rather than the final touch location.</li>
+	    
+		</ul>
+    </section>
+
+    <section>
+    	<h2>2.5.3 Label in Name</h2>
+		<ul>
+		<li>
+	        Label and name from content mismatch</li>
+	    <li>
+	        The accessible name not containing the visible label text</li>
+	    <li>
+	        Accessible name contains the visible label text, but the words of the visible label are not in the same order as they are in the visible label text</li>
+	    <li>
+	        Accessible name contains the visible label text, but one or more other words are interspersed in the label</li>
+	    
+		</ul>
+    </section>
+
+    <section>
+    	<h2>2.5.4 Motion Actuation</h2>
+		<ul>
+		<li>
+	        Functionality that can only be activated via device motion events (e.g., shaking or tilting)</li>
+	    <li>
+	        An inability to disable motion actuation</li>
+	    <li>
+	        Disrupting or disabling system level features which allow the user to disable motion actuation</li>
+	    
+		</ul>
+    </section>
+
+    <section>
+    	<h2>3.1.1 Language of Page</h2>
+		<ul>
+		<li>
+	        &lt;html&gt; element must have a lang attribute</li>
+	    <li>
+	        &lt;html&gt; element must have a valid value for the lang attribute</li>
+	    <li>
+	        &lt;html&gt; elements with lang and xml:lang must have the same base language</li>
+	    
+		</ul>
+    </section>
+
+    <section>
+    	<h2>3.1.2 Language of Parts</h2>
+		<ul>
+		<li>
+	        lang attribute must have a valid value</li>
+	    
+		</ul>
+    </section>
+
+    <section>
+    	<h2>3.2.1 On Focus; 3.2.5 Change on Request</h2>
+		<ul>
+		<li>
+	        Opening a new window as soon as a new page is loaded</li>
+	    
+		</ul>
+    </section>
+
+    <section>
+    	<h2>3.2.2 On Input</h2>
+		<ul>
+		<li>
+	        Automatically submitting a form and given a value</li>
+	    <li>
+	        Launching a new window without prior warning when the selection of a radio button, check box or select list is changed</li>
+	    
+		</ul>
+    </section>
+
+    <section>
+    	<h2>3.2.3 Consistent Navigation</h2>
+		<ul>
+		<li>
+	        Presenting navigation links in a different relative order on different pages</li>
+	    
+		</ul>
+    </section>
+
+    <section>
+    	<h2>3.2.4 Consistent Identification</h2>
+		<ul>
+		<li>
+	        Using two different labels for the same function on different Web pages within a set of Web pages</li>
+	    
+		</ul>
+    </section>
+
+    <section>
+    	<h2>3.3.2 Labels or Instructions</h2>
+		<ul>
+		<li>
+	        Form fields do not have duplicate labels</li>
+	    <li>
+	        Visually formatting a set of phone number fields but not including a text label</li>
+	    
+		</ul>
+    </section>
+
+    <section>
+    	<h2>4.1.1 Parsing</h2>
+		<ul>
+		<li>
+	        ID attribute value must be unique</li>
+	    <li>
+	        ID attribute values must be unique</li>
+	    <li>
+	        IDs used in ARIA and labels must be unique</li>
+	    <li>
+	        Incorrect use of start and end tags or attribute markup</li>
+	    <li>
+	        Duplicate values of type ID</li>
+	    
+		</ul>
+    </section>
+
+    <section>
+    	<h2>4.1.2 Name, Role, Value</h2>
+		<ul>
+		<li>
+	        ARIA attributes must conform to valid names</li>
+	    <li>
+	        ARIA attributes must conform to valid values</li>
+	    <li>
+	        ARIA input fields have an accessible name</li>
+	    <li>
+	        ARIA roles used must conform to valid values</li>
+	    <li>
+	        ARIA toggle fields have an accessible name</li>
+	    <li>
+	        aria-hidden elements do not contain focusable elements</li>
+	    <li>
+	        aria-hidden=&quot;true&quot; must not be present on the document &lt;body&gt;</li>
+	    <li>
+	        Buttons must have discernible text</li>
+	    <li>
+	        Elements must only use allowed ARIA attributes</li>
+	    <li>
+	        Input buttons must have discernible text</li>
+	    <li>
+	        Required ARIA attributes must be provided</li>
+	    <li>
+	        Use aria-roledescription on elements with a semantic role</li>
+	    <li>
+	        Implementing custom controls that do not use an accessibility API for the technology, or do so incompletely</li>
+	    <li>
+	        Using script to make div or span a user interface control in HTML without providing a role for the control</li>
+	    <li>
+	        A user interface control not having a programmatically determined name</li>
+	    <li>
+	        The focus state of a user interface component not being programmatically determinable or no notification of change of focus state available</li>
+	    <li>
+	        Not providing names for each part of a multi-part form field, such as a US telephone number</li>
+	    
+		</ul>
+    </section>
+
+    <section>
+    	<h2>4.1.3 Status Messages</h2>
+		<ul>
+		<li>
+	        Using role=&quot;alert&quot; or aria-live=&quot;assertive&quot; on content which is not important and time-sensitive</li>
+	    <li>
+	        Using a visibility change event to hide or display a document without switching the document&#39;s live regions between active and inactive</li>
+	    
+		</ul>
+    </section>
+
+    <section>
+    	<h2>Best Practice</h2>
+		<ul>
+		<li>
+	        ARIA role must be appropriate for the element</li>
+	    <li>
+	        accesskey attribute value must be unique</li>
+	    <li>
+	        All page content must be contained by landmarks</li>
+	    <li>
+	        Banner landmark must not be contained in another landmark</li>
+	    <li>
+	        Complementary landmarks and/or asides are top level</li>
+	    <li>
+	        Contentinfo landmark must not be contained in another landmark</li>
+	    <li>
+	        Elements in the focus order need a role appropriate for interactive content</li>
+	    <li>
+	        Elements should not have tabindex greater than zero</li>
+	    <li>
+	        Ensures the document has at most one main landmark</li>
+	    <li>
+	        Form &lt;input&gt; elements should have a visible label</li>
+	    <li>
+	        Frames must be tested with axe-core</li>
+	    <li>
+	        Frames must have a unique title attribute</li>
+	    <li>
+	        Heading levels should only increase by one</li>
+	    <li>
+	        Headings must not be empty</li>
+	    <li>
+	        Hidden content on the page cannot be analyzed</li>
+	    <li>
+	        Landmarks must have a unique role or role/label/title (i.e. accessible name) combination</li>
+	    <li>
+	        Main landmark must not be contained in another landmark</li>
+	    <li>
+	        Page must contain a level-one heading</li>
+	    <li>
+	        Page must have one main landmark</li>
+	    <li>
+	        Page must not have more than one banner landmark</li>
+	    <li>
+	        Page must not have more than one contentinfo landmark</li>
+	    <li>
+	        Scope attribute should be used correctly on tables</li>
+	    <li>
+	        Text of buttons and links should not be repeated in the image alternative</li>
+	    <li>
+	        The &lt;caption&gt; element should not contain the same text as the summary attribute</li>
+	    <li>
+	        The skip-link target should exist and be focusable</li>
+	    <li>
+	        Users should be able to zoom and scale the text up to 500%</li>
+	    
+		</ul>
+    </section>
+
+</div>
+
+			
+<div class="pagedetails">
+	<div class="row">
+		<div class="col-sm-6 col-md-5 col-lg-4">
+			<a href="https://www.canada.ca/en/report-problem.html" class="btn btn-default btn-center">Report a problem on this page</a></div>
+		<div class="wb-share col-sm-4 col-md-3 col-sm-offset-2 col-md-offset-4 col-lg-offset-5" data-wb-share='{"lnkClass": "btn btn-default btn-block"}'></div>
+	</div>
+	<dl id="wb-dtmd">
+		<dt>Date modified:</dt>
+		<dd><time datetime="2021-08-25">2021-08-25</time></dd>
+	</dl>
+</div>
+
+
+
+
+
+		</div>
+
+
+	</main>
+
+	
+
+<aside class="contribute">
+	<div class="container">
+		<h2><i class="fab fa-github fa-lg fa-fw" aria-hidden="true"></i>Contribute <small>on Github.com</small></h2>
+			<ul class="list-unstyled colcount-sm-2 colcount-md-3">
+				<li><a href="https://github.com/gc-da11yn/gc-da11yn.github.io"><i class="fas fa-code fa-lg fa-fw" aria-hidden="true"></i>See the source code <small>on Github.com</small></a></li>
+				<li><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/issues/new/choose"><i class="fas fa-exclamation-circle fa-lg fa-fw" aria-hidden="true"></i>Report an issue <small>on Github.com</small></a></li>
+				<li><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/discussions"><i class="far fa-comments fa-lg fa-fw" aria-hidden="true"></i>Join the discussions <small>on Github.com</small></a></li>
+			</ul>
+	</div>
+</aside>
+	
+	
+<footer id="wb-info">
+	<div class="landscape">
+		<nav class="container wb-navcurr">
+			<h2 class="wb-inv">About government</h2>
+			<ul class="list-unstyled colcount-sm-2 colcount-md-3">
+				<li><a href="https://www.canada.ca/en/contact.html">Contact us</a></li>
+				<li><a href="https://www.canada.ca/en/government/dept.html">Departments and agencies</a></li>
+				<li><a href="https://www.canada.ca/en/government/publicservice.html">Public service and military</a></li>
+				<li><a href="https://www.canada.ca/en/news.html">News</a></li>
+				<li><a href="https://www.canada.ca/en/government/system/laws.html">Treaties, laws and regulations</a></li>
+				<li><a href="https://www.canada.ca/en/transparency/reporting.html">Government-wide reporting</a></li>
+				<li><a href="https://pm.gc.ca/eng">Prime Minister</a></li>
+				<li><a href="https://www.canada.ca/en/government/system.html">How government works</a></li>
+				<li><a href="https://open.canada.ca/en/">Open government</a></li>
+			</ul>
+		</nav>
+	</div>
+	<div class="brand">
+		<div class="container">
+			<div class="row">
+				<nav class="col-md-9 col-lg-10 ftr-urlt-lnk">
+					<h2 class="wb-inv">About this site</h2>
+					<ul>
+						<li><a href="https://www.canada.ca/en/social.html">Social media</a></li>
+						<li><a href="https://www.canada.ca/en/mobile.html">Mobile applications</a></li>
+						<li><a href="https://www1.canada.ca/en/newsite.html">About Canada.ca</a></li>
+						<li><a href="https://www.canada.ca/en/transparency/terms.html">Terms and conditions</a></li>
+						<li><a href="https://www.canada.ca/en/transparency/privacy.html">Privacy</a></li>
+					</ul>
+				</nav>
+				<div class="col-xs-6 visible-sm visible-xs tofpg">
+					<a href="#wb-cont">Top of page <span class="glyphicon glyphicon-chevron-up"></span></a>
+				</div>
+				<div class="col-xs-6 col-md-3 col-lg-2 text-right">
+					<img src="../../gcweb/assets/wmms-blk.svg" alt="Symbol of the Government of Canada">
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.js"></script>
+	<script src="../../wet-boew/js/wet-boew.min.js"></script>
+	<script src="../../gcweb/js/theme.min.js"></script>
+</body>
+</html>
