@@ -4,7 +4,10 @@ layout: layouts/base.njk
 description: A database of WCAG issues found in our audits. Grouped by Success Criterion.
 ---
 
-
+<ul>
+<li><a href="../index.html">Full list</a></li>
+<li>Grouped Success Criterion</li>
+</ul>
 <div class="wb-filter">
 {% for SC, issues in issues.issues | groupby("SC") %}
     <section>
