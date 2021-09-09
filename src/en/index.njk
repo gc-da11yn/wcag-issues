@@ -4,20 +4,28 @@ layout: layouts/base.njk
 description: A database of WCAG issues found in our audits.
 ---
 
+<div class="alert alert-info">
+<p>All information on this pages is from <a href="/data.json">data in JSON file</a>.</p>
+</div>
+
 <p>Different views:</p>
 <ul>
 <li>Full list</li>
-<li><a href="./grouped/">Grouped Success Criterion</a></li>
+{# <li><a href="./grouped/">Grouped Success Criterion</a></li> #}
 </ul>
 <div>
 	<p>Issues:</p>
 	<ul class="wb-filter lst-spcd">
-	{% for issue in issues.issues %}
-		<li>{{ issue.Issue }}<br />
-		{% if issue.SC == 'Best Practice' %}
-			<span class="label label-success">{{ issue.SC }}</span>
+	{% for issue in issues %}
+		<li>{{ issue.title }}<br />
+		{% if issue.criterions == 'Best Practice' %}
+			<span class="label label-success">Best Practice</span>
 			{% else %}
-		<strong>Related Success Criterion:</strong> <span class="label label-primary">{{ issue.SC }}</span></li>
+		<strong>Related Success Criterion:</strong> 
+		 {% for criterion in issue.criterions %}
+			 <span class="label label-primary">{{ criterion }}</span>
+		 {% endfor %}
+		</li>
 		{% endif %}
 	{% endfor %}
 	</ul>

@@ -4,19 +4,21 @@ layout: layouts/base.njk
 description: A database of WCAG issues found in our audits. Grouped by Success Criterion.
 ---
 
+{# NEED TO FIX
+
 <ul>
 <li><a href="../index.html">Full list</a></li>
 <li>Grouped Success Criterion</li>
 </ul>
 <div class="wb-filter">
-{% for SC, issues in issues.issues | groupby("SC") %}
+{% for criterion, title in issues | groupby("criterion[]") %}
     <section>
-    	<h2>{{ SC }}</h2>
+    	<h2>{{ criterion[] }}</h2>
 		<ul class="lst-spcd">
-		{% for issue in issues %}<li>
-	        {{ issue.Issue }}</li>
-	    {% endfor %}
+		{% for title in issues %}
+		<li>{{ title.title }}</li>
+		{% endfor %}
 		</ul>
     </section>
 {% endfor %}
-</div>
+</div> #}
